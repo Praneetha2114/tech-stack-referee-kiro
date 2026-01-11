@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Stack Referee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Tech Stack Referee: Python vs Java</h2>
+
+<label>Select Context:</label>
+<select id="context">
+  <option value="backend">Backend Development</option>
+  <option value="data">Data Processing</option>
+  <option value="enterprise">Enterprise Systems</option>
+  <option value="learning">Learning Curve</option>
+</select>
+
+<button onclick="compare()">Compare</button>
+
+<div class="result">
+  <h3>Python</h3>
+  <p id="python"></p>
+
+  <h3>Java</h3>
+  <p id="java"></p>
+
+  <h3>Trade-Off Analysis (Referee Verdict)</h3>
+  <p id="tradeoff"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
